@@ -81,11 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Kajal Shakya
+                    Hello world
                 </div>
 
+
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="welcome">Welcome</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>

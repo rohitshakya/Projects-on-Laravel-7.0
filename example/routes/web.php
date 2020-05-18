@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/kajal', function () {
+Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/rohit', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
