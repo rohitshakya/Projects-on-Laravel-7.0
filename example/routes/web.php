@@ -20,3 +20,11 @@ Route::get('/home', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+Route::get("fun/{id}", 'MyControllers@firstfunction');
+
+Route::get("funhttp", 'MyControllers@httprequest');
+
+Route::get('/form', function () {
+    return view('form');
+});
+Route::post("/formhandler",'MyControllers@formcontrol');
