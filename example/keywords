@@ -1,0 +1,13 @@
+http request
+
+path:
+method:
+url:
+fullUrl:
+query:
+isMethod:
+get:
+post:
+input:
+Request $req;
+print_r:array
