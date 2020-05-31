@@ -2,9 +2,10 @@
 Project based on laravel 7.0
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-### How to start
-
-* `set the variable path, open system properties->advance system settings->environment variables->new path->C:/xampp/php`  
+### How to create and serve the laravel project
+* `Create a project: first setup path for composer, ie c:/composer in path variable.
+* `Navigate where to create project in cmd, for example htdocs, type composer create-project laravel/laravel project_Name
+* `how to start: `set the variable path, open system properties->advance system settings->environment variables->new path->C:/xampp/php` 
 * `open cmd navigate to the project folder and type `php artisan serve` to start the server.
 
 <p align="center">
