@@ -5,8 +5,8 @@ Project based on laravel 7.0
 ### How to create and serve the laravel project
 * `Create a project: first setup path for composer, ie c:/composer in path variable.
 * `Navigate where to create project in cmd, for example htdocs, type composer create-project laravel/laravel project_Name
-* `how to start: `set the variable path, open system properties->advance system settings->environment variables->new path->C:/xampp/php` 
-* `open cmd navigate to the project folder and type `php artisan serve` to start the server.
+* how to start: `set the variable path, open system properties->advance system settings->environment variables->new path->C:/xampp/php` 
+* open cmd navigate to the project folder and type `php artisan serve` to start the server.
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
