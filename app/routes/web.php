@@ -13,18 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
-    return view('home');
+Route::get('/', function () {
+    return view('index');
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
+Route::get('/user', function () {
+    return view('user');
 });
-Route::get("fun/{id}", 'MyControllers@firstfunction');
-
-Route::get("funhttp", 'MyControllers@httprequest');
-
-Route::get('/form', function () {
-    return view('form');
-});
-Route::post("/formhandler",'MyControllers@formcontrol');
+Route::get('/user/print/{name}', 'myControllers@printRohit');
