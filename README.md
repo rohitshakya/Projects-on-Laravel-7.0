@@ -5,7 +5,7 @@ Project based on laravel 7.0
 ### How to create and serve the laravel project
 * [Link to learn laravel from scratch](https://laracasts.com/series/laravel-6-from-scratch/)
 * Create a project: first setup path for composer, ie `c:/composer` in path variable.  
-* Navigate where to create project in cmd, for example htdocs, type `composer create-project laravel/laravel project_Name`  
+* Navigate where to create project in cmd, for example htdocs, type `composer create-project --prefer-dist laravel/laravel project-name`  
 * how to start: `set the variable path, open system properties->advance system settings->environment variables->new path->C:/xampp/php` 
 * open cmd navigate to the project folder and type `php artisan serve` to start the server.
 * how to manage database-> navigate to .env file and change the settings and reset settings database.config file
